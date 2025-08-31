@@ -3,20 +3,6 @@ import React from "react";
 class Navbar extends React.Component {
   render() {
     return (
-      // <navbar className="navbar navbar-expand-lg navbar-dark bg-dark ">
-      //   <div className="container-fluid">
-      //     <a className="navbar-brand" href="#">
-      //       ApnaCart
-      //     </a>
-      //     </div>
-      //     <div className="gap-10 text-white justify-center mr-20px" href="#">
-      //       <a href="#">home</a>
-      //       <a href="#">About</a>
-      //       <a href="#">Contact</a>
-      //     </div>
-      //     <input type="text" placeholder="Search" />
-      //     <button className="bg-light br-10px">Search</button>
-      //     </navbar>
       <nav className="navbar navbar-expand-lg bg-dark text-white ">
         <div className="container-fluid ">
           <a className="navbar-brand text-white" href="#">
