@@ -47,7 +47,7 @@ class AddItem extends Component {
           />
         </div>
         <button type="submit" className="btn btn-primary text-dark col-4">
-          Add
+          Add to cart
         </button>
       </form>
     );
