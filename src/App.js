@@ -112,6 +112,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import AddItem from "./components/AddItem.js";
 import Login from "./components/Login.js";
+import "bootstrap-icons/font/bootstrap-icons.css";
 
 function App() {
   const products = [
