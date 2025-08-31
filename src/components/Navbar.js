@@ -42,7 +42,7 @@ class Navbar extends React.Component {
               </li>
               <li className="nav-item">
                 <a className="nav-link text-white" href="#">
-                  Link
+                  About
                 </a>
               </li>
               <li className="nav-item dropdown">
