@@ -67,7 +67,7 @@ function App() {
     newProductList.push({
       price:price,
       name:name,
-      Quantity:0,
+      quantity:0,
     });
     setProductList(newProductList);
   }

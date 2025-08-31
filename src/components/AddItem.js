@@ -16,6 +16,7 @@ class AddItem extends Component {
           e.preventDefault();
           this.props.addItem(this.state.productName, Number(this.state.productPrice));
         }}
+
       >
         <div className="form-group col-4">
           <label htmlFor="inputName">Name</label>
