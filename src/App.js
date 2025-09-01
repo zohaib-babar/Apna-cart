@@ -12,6 +12,8 @@ function App() {
   const products = [
     { price: 99999, name: "IPhone 10S Max", quantity: 0 },
     { price: 99999, name: "Redmi Note 10S Max", quantity: 0 },
+    { price: 100000, name: "IPhone 12pro Max", quantity: 0},
+    { price: 6000, name: "Iphone Data cable", quantity: 0},
   ];
 
   let [productList, setProductList] = useState(products);
