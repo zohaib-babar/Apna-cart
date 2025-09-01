@@ -60,7 +60,7 @@ export default function Login({ onLogin }) {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (username === "admin" && password === "1234") {
+    if (username === "zohaib" && password === "3388") {
       onLogin();
     } else {
       alert("Invalid credentials");
@@ -95,6 +95,13 @@ export default function Login({ onLogin }) {
             <i className="bi bi-google me-2"></i> Continue with Google
           </button>
         </div>
+
+        <div className="text-center mt-3">
+          <button className="btn btn-outline-primary w-100">
+            <i className="bi bi-facebook me-2"></i> Continue with Facebook
+          </button>
+        </div>
+
       </div>
     </div>
   );
