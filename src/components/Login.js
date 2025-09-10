@@ -104,6 +104,7 @@ export default function Login({ onLogin }) {
           onChange={(e) => setPassword(e.target.value)}
         />
         <button className="btn btn-primary w-100">Login</button>
+        <button className="btn btn-danger mt-3 w-100">Continue with Google</button>
       </form>
     </div>
   );
