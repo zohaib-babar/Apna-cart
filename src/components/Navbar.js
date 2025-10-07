@@ -6,7 +6,7 @@ class Navbar extends React.Component {
       <nav className="navbar navbar-expand-lg bg-dark text-white ">
         <div className="container-fluid ">
           <a className="navbar-brand text-white" href="https://apna-cart-alpha.vercel.app/#">
-            Apna Cart
+            Mera cart
           </a>
           <button
             className="navbar-toggler"
