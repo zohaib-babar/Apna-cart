@@ -15,25 +15,25 @@ export default function Product(props) {
       </div>
       <div className="col-3">
         <div
-          class="btn-group"
+          className="btn-group"
           role="group"
           aria-label="Basic mixed styles example"
         >
           <button
             type="button"
-            class="btn btn-danger"
+            className="btn btn-danger"
             onClick={() => {
               props.decrementQuantity(props.index);
             }}
           >
             -
           </button>
-          <button type="button" class="btn btn-warning">
+          <button type="button" className="btn btn-warning">
             {props.product.quantity}
           </button>
           <button
             type="button"
-            class="btn btn-success"
+            className="btn btn-success"
             onClick={() => {
               props.incrementQuantity(props.index);
             }}
