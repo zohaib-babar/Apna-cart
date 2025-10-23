@@ -8,7 +8,7 @@ export default function Footer(props) {
           props.resetQuantity();
         }}
       >
-        Reset
+        ✅Reset
       </button>
       <div className="col-8 bg-dark text-white text-center .d-flex">
         {props.totalAmount}

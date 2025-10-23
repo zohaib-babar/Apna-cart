@@ -70,7 +70,7 @@ function App() {
     setProductList(newProductList);
   };
 
-  // 👇 LOGIN + SIGNUP screen
+  //  LOGIN + SIGNUP screen
   if (!isLoggedIn) {
     return (
       <div className="container mt-5">
@@ -87,7 +87,7 @@ function App() {
     );
   }
 
-  // 👇 MAIN APP screen after login
+  //  MAIN APP screen after login
   return (
     <>
       <div className="d-flex justify-content-between align-items-center p-2">
